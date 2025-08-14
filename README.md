@@ -1,7 +1,6 @@
 # 📚 PragnaAI – RAG-based AI Study Assistant
 
-PragnaAI is an AI-powered chatbot designed to help students and professionals learn from **unstructured documents** like PDFs, textbooks, and articles.  
-It uses **Retrieval-Augmented Generation (RAG)** to answer questions, generate quizzes, and provide citations — all grounded in your uploaded study material.
+PragnaAI is an AI-powered chatbot designed to help students and professionals learn from **unstructured documents** like PDFs, textbooks, and articles. It uses **Retrieval-Augmented Generation (RAG)** to answer questions, generate quizzes, and provide citations — all grounded in your uploaded study material.
 
 ---
 
