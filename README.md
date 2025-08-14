@@ -39,7 +39,7 @@ python --version
 
 ### 2️⃣ Clone the Repository
 ```bash
-git clone https://github.com/yourusername/RAG_APP.git
+git clone https://github.com/shivams5550/RAG_APP.git
 cd RAG_APP
 ```
 
@@ -51,7 +51,7 @@ venv\Scripts\activate
 
 ### 4️⃣ Install Dependencies
 ```cmd
-pip install -r requirements.txt
+pip install -r requirement.txt
 ```
 
 ### 5️⃣ Create .env File
