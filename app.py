@@ -8,6 +8,7 @@ from langchain_community.document_loaders import PyPDFLoader, TextLoader
 from langchain_community.embeddings.sentence_transformer import SentenceTransformerEmbeddings
 from langchain_community.vectorstores import Chroma
 from langchain_core.prompts import ChatPromptTemplate
+from sentence_transformers import SentenceTransformer
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnableLambda
 from langchain_groq import ChatGroq
@@ -22,7 +23,7 @@ client = Groq(api_key=groq_api_key)
 
 # ==================== MODELS ====================
 model_name = "openai/gpt-oss-120b"
-embedding_model_name = "thenlper/gte-large"
+embedding_model_name = "all-MiniLM-L6-v2"
 
 # ==================== PROMPTS ====================
 prompt = ChatPromptTemplate.from_messages([
